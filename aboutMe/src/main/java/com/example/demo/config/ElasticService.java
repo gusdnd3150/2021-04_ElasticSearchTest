@@ -17,8 +17,8 @@ import com.google.gson.Gson;
 @Component
 public class ElasticService {
 
-	private String host = "localhost";
-	private int port = 8080;
+	private String host = "127.0.0.1";
+	private int port = 9200;
 
 	public Map<String, Object> callElasticApi(String method, String url, Object obj, String jsonData) {
 		Map<String, Object> result = new HashMap<>();

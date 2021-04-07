@@ -36,5 +36,5 @@ public class ElasticController {
 		System.out.println(result.get("resultCode"));
 		System.out.println(result.get("resultBody"));
 	}
-
+	//https://github.com/yookeun/elasic-spring-example/blob/master/src/main/java/com/example/elastic/ElasticApi.java 
 }
